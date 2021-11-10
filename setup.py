@@ -4,17 +4,17 @@ from setuptools import find_packages, setup
 long_description = open("README.md", "r").read()
 
 setup(
-    name="hearbaseline",
-    description="Holistic Evaluation of Audio Representations (HEAR) 2021 -- Baseline Model",
-    author="HEAR 2021 NeurIPS Competition Committee",
-    author_email="deep@neuralaudio.ai",
-    url="https://github.com/neuralaudio/hear-baseline",
+    name="MusicSpeechWav2vec",
+    description="Wav2vec model trained on both music and speech data",
+    author="Kin Wai Cheuk",
+    author_email="kinwai_cheuk@mymail.sutd.edu.sg",
+    url="https://github.com/KinWaiCheuk/my_package",
     license="Apache-2.0",
     long_description=long_description,
     long_description_content_type="text/markdown",
     project_urls={
-        "Bug Tracker": "https://github.com/neuralaudio/hear-baseline/issues",
-        "Source Code": "https://github.com/neuralaudio/hear-baseline",
+        "Bug Tracker": "https://github.com/KinWaiCheuk/my_package/issues",
+        "Source Code": "https://github.com/KinWaiCheuk/my_package",
     },
     packages=find_packages(exclude=("tests",)),
     python_requires=">=3.7",
