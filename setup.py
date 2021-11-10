@@ -24,7 +24,7 @@ setup(
         "numba==0.48",
         # tf 2.6.0
         "numpy==1.19.2",
-        "torch==0.10",
+        "torch==1.9.0",
         # "numba>=0.49.0", # not directly required, pinned by Snyk to avoid a vulnerability
         "scikit-learn>=0.24.2",  # not directly required, pinned by Snyk to avoid a vulnerability
         "fairseq@git+https://github.com/pytorch/fairseq"
